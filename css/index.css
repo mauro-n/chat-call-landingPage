@@ -236,7 +236,7 @@ a:hover {
 .nav--cta-btn:hover {
     cursor: pointer;
     background-color: black;
-    border-radius: 0px;
+    /* border-radius: 0px; */
     color: white;
 }
 
@@ -361,7 +361,7 @@ a:hover {
 
 .btn-var-dark:hover {
     cursor: pointer;
-    border-radius: 0px;
+    /* border-radius: 0px; */
     background-color: black;
 }
 
@@ -393,7 +393,9 @@ a:hover {
 
 .btn-var-light:hover {
     cursor: pointer;
-    border-radius: 0px;
+    background-color: #6A65FF;
+    color: white;
+    /* border-radius: 0px; */
 }
 
 .hero-img-wrapper {
