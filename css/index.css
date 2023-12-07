@@ -152,6 +152,20 @@ a:hover {
     cursor: pointer;
 }
 
+
+body {
+    line-height: 1;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.webWrapper {
+    width: 100%;
+    max-width: 1380px;
+}
+
+
 /* ----------------------------------------------------------------------------- */
 /* NAVBAR */
 
@@ -330,7 +344,7 @@ a:hover {
 .hero-text h1 {
     max-width: 460px;
     font-weight: 400;
-    font-size: calc(0.8rem + 5vw);
+    font-size: calc(0.1rem + 5vw);
 }
 
 .hero-text p {
@@ -472,7 +486,7 @@ a:hover {
     }
 
     .hero-text h1 {
-        font-size: 5rem;
+        font-size: 4rem;
         line-height: 90%;
     }
 
@@ -601,7 +615,7 @@ a:hover {
 
 @media(max-width: 576px) {
     .learn-more-section h2 {
-        font-size: 4rem;
+        font-size: 3.2rem;
         text-align: start;
     }
 
@@ -691,7 +705,7 @@ a:hover {
 
 @media(max-width: 768px) {
     .solution-text h2 {
-        font-size: 4rem;
+        font-size: 3.2rem;
     }
     .solution-subtitle {
         font-size: 1.8rem;
